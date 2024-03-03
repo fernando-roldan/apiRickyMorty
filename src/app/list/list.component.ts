@@ -13,8 +13,6 @@ export class ListComponent implements OnInit {
   nextPageUrl: string | null = null;
   prevPageUrl: string | null = null;
   totalCharacters: number = 0;
-  pageSize: number = 20;
-  pageSizeOptions: number[] = [10, 20, 50];
   currentPage: number = 1;
   totalPages: number = 0;
 
